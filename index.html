@@ -12,7 +12,7 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
-  <div class="container-fluid">
+  <content class="container-fluid">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg-secondary navbar-dark fixed-top">
       <div class="container-fluid">
@@ -28,6 +28,9 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#programming-certificates">Certificates</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -41,7 +44,7 @@
       <h2 class="display-5">Annie McMahon</h2>
     </header>
 
-    <content>
+    <section>
       <!-- About Me Section -->
       <div class="row mt-5 mb-3 justify-content-center" id="about-me">
         <div class="col-8  bg-light text-body rounded p-5">
@@ -64,7 +67,7 @@
       <!-- Cards Section -->
       <div class="row justify-content-center">
         <!-- CSS Cheatsheet Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>CSS Cheatsheet</h3>
@@ -83,7 +86,7 @@
           </div>
         </div>
         <!-- Style Guide Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Style Guide</h3>
@@ -100,7 +103,7 @@
           </div>
         </div>
         <!-- Company Website Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Company Website</h3>
@@ -116,7 +119,7 @@
           </div>
         </div>
         <!-- Club Website Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Club Website</h3>
@@ -132,7 +135,7 @@
           </div>
         </div>
         <!-- Mad Lib Generator Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Mad Lib Generator</h3>
@@ -151,7 +154,7 @@
           </div>
         </div>
         <!-- Film Finder App Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Film Finder</h3>
@@ -162,15 +165,14 @@
               <p>Technology used: HTML, CSS, JavaScript</p>
               <p>Summary: Users can get a random movie recommendation by selecting a genre.
               </p>
-              <p>GitHub link: <a href="https://github.com/AnnieMcMahon/film-finder"
-                  target="_blank">film-finder</a></p>
+              <p>GitHub link: <a href="https://github.com/AnnieMcMahon/film-finder" target="_blank">film-finder</a></p>
               <p>Web page link: <a href="https://anniemcmahon.github.io/film-finder/" target="_blank">film-finder</a>
               </p>
             </div>
           </div>
         </div>
         <!-- Reddit App Card -->
-        <div class="col-8 col-md-5 p-2">
+        <div class="col-8 col-md-4 p-2">
           <div class="card">
             <div class="front">
               <h3>Reddit App</h3>
@@ -190,15 +192,83 @@
         </div>
         <!-- End of card section -->
       </div>
-  </div>
+      <!-- End of Projects section -->
+    </section>
+
+    <!-- Certificates Section -->
+    <section>
+      <div class="row mt-5 mb-2 text-white" id="programming-certificates">
+        <div class="col py-2 bg-dark">
+          <h2 class="text-center pb-3">Programming Certificates</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center text-dark">
+        <div class="col-6">
+          <!-- Carousel -->
+          <div id="certificates" class="carousel slide bg-dark" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="2"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="3"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="4"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="5"></button>
+              <button type="button" data-bs-target="#certificates" data-bs-slide-to="6"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner pt-5 text-center col-6">
+              <div class="carousel-item active">
+                <img src="./Images/Certificates/Full-Stack.png" alt="Full Stack Engineer" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/HTML.png" alt="HTML" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/CSS.png" alt="CSS" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/JavaScript.png" alt="JavaScript" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/SQL.png" alt="SQL" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/PostgreSQL.png" alt="PostgreSQL" class="d-block w-30">
+                <br /><br />
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/Certificates/Bootstrap.png" alt="Bootstrrap" class="d-block w-30">
+                <br /><br />
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#certificates" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#certificates" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="mt-2 p-2 bg-dark text-white rounded text-center">
+      <h2 id="contact">Contact Me</h2>
+      <p>E-mail: anniemcmahon20@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/AnnieMcMahon" target="_blank">https://github.com/AnnieMcMahon</a></p>
+    </footer>
   </content>
-  <footer class="mt-2 p-2 bg-dark text-white rounded text-center">
-    <h2 id="contact">Contact Me</h2>
-    <p>E-mail: anniemcmahon20@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/AnnieMcMahon" target="_blank">https://github.com/AnnieMcMahon</a></p>
-  </footer>
-</body>
-</div>
 </body>
 
 </html>

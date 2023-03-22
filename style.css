@@ -19,25 +19,49 @@ h3 {
   background-color: white;
   transform-style: preserve-3d;
 }
+
 .card img {
   max-width: 25rem;
   max-height: 20rem;
   padding: 0.5rem;
 }
+
 .card p {
   text-align: left;
   padding: 0 2rem;
 }
+
 .front {
   backface-visibility: hidden;
   transform: rotateX(0deg);
   height: 100%;
 }
+
 .back {
   backface-visibility: hidden;
   transform: rotateY(180deg);
   position: absolute;
 }
+
 .card.flip {
   transform: rotateY(180deg);
+}
+
+.carousel-item img {
+  max-width: 35rem;
+  max-height: auto;
+  margin: auto;
+
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
 }
