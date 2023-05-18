@@ -4,6 +4,17 @@ body {
   background-size: cover;
 }
 
+#about-me, #projects, #coding-certif, #contact {   /*  Hyperlinks */
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.divider {   /*  Sections */
+  /* background-color: rgb(90, 31, 90); */
+  background: linear-gradient(rgb(148, 16, 165),rgb(66, 34, 117));
+  padding: 20px 0;
+}
+
 h3 {
   padding-bottom: 0.5rem;
 }
@@ -51,7 +62,6 @@ h3 {
   max-width: 35rem;
   max-height: auto;
   margin: auto;
-
 }
 
 .carousel-control-prev-icon {
