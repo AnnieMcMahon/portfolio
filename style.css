@@ -29,6 +29,7 @@ h3 {
   text-align: center;
   background-color: white;
   transform-style: preserve-3d;
+  transition: all 1000ms ease;
 }
 
 .card img {
@@ -55,7 +56,7 @@ h3 {
 }
 
 .card.flip {
-  transform: rotateY(180deg);
+  transform: rotateY(180deg);  
 }
 
 .carousel-item img {
