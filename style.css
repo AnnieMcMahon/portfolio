@@ -60,7 +60,7 @@ h3 {
 }
 
 .carousel-item img {
-  max-width: 35rem;
+  max-width: 100%;
   max-height: auto;
   margin: auto;
 }
@@ -75,4 +75,8 @@ h3 {
   position: absolute;
   bottom: 20px;
   right: 20px;
+}
+
+footer p {
+  margin-bottom: 0;
 }
